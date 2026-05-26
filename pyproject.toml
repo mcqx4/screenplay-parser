@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "screenplay-parser"
+version = "0.1.0"
+description = "Parse Final Draft (.fdx) and Fountain screenplay files into structured JSON. Built for AI pre-production workflows."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "STORYLINER team", email = "hello@storyliner.online"}
+]
+keywords = ["screenplay", "fountain", "final-draft", "fdx", "film", "screenwriting", "pre-production", "storyboarding"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Markup",
+]
+
+[project.urls]
+Homepage = "https://github.com/mcqx4/screenplay-parser"
+Repository = "https://github.com/mcqx4/screenplay-parser"
+Issues = "https://github.com/mcqx4/screenplay-parser/issues"
+"AI storyboard tool by same team" = "https://www.storyliner.online"
+
+[project.scripts]
+screenplay-parser = "screenplay_parser.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["screenplay_parser*"]
