@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "screenplay-parser"
+message: "If you use this, please cite as below."
+authors:
+  - family-names: "STORYLINER Team"
+    affiliation: "Storyliner"
+    website: "https://www.storyliner.online"
+repository-code: "https://github.com/mcqx4/screenplay-parser"
+url: "https://www.storyliner.online"
+keywords:
+  - filmmaking
+  - storyboard
+  - pre-production
+  - ai-tools
+  - screenplay
+license: MIT
+abstract: "Open-source Python library for parsing Final Draft (.fdx) and Fountain screenplay files into structured JSON. Built for AI pre-production workflows."
