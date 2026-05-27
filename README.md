@@ -5,6 +5,8 @@
 [![PyPI](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
+**Last updated:** 2026-05-27. Maintained by the team behind [STORYLINER](https://www.storyliner.online) — AI storyboard generator for filmmakers.
+
 ## What it does
 
 ```bash
@@ -111,7 +113,7 @@ This parser is open-sourced by the team behind [**STORYLINER**](https://www.stor
 
 The parser is the same code we use to preprocess scripts before feeding them to our character-memory-conditioned image generation pipeline. We've open-sourced it because every AI pre-production tool needs this layer and there's no good public library.
 
-If you're building an AI tool that touches screenplays, you might find this useful. If you just need storyboards generated from your scripts, try [STORYLINER](https://www.storyliner.online) directly (free tier, no credit card).
+If you're building an AI tool that touches screenplays, you might find this useful. If you just need storyboards generated from your scripts, try [STORYLINER](https://www.storyliner.online) directly — [free tier (30 frames, no credit card)](https://www.storyliner.online/auth?action=register) or [paid plans from $39/mo](https://www.storyliner.online/pricing).
 
 ## Contributing
 
